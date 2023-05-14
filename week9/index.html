@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDEA9103: Wk9 Quiz - 'Themata'</title>
+    <link rel="stylesheet" href="style.css" />
+    
+    <!-- Trying out some font linking below -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"
+        integrity="sha512-jduERlz7En1IUZR54bqzpNI64AbffZWR//KJgF71SJ8D8/liKFZ+s1RxmUmB+bhCnIfzebdZsULwOrbVB5f3nQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+</head>
+<body>
+    <div class="transport">
+        <button class="transport-button" id="reset" title="Clear the canvas">RESET</button>
+        <button class="transport-button" id="play" title="Play">GENERATE</button>
+        <button class="transport-button" id="stop" title="Music">PLAY MUSIC</button>
+    </div>
+    <div class="svg-container" id="svg-container">
+        <svg id="background-canvas"></svg>
+        <svg id="grid"></svg>
+
+    </div>    
+
+    <script src="utils.js"></script>
+    <script src="script.js"></script>
+    <script src="tones.js"></script>
+</body>
+</html>
